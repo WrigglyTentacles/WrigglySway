@@ -1,0 +1,44 @@
+.is-fullscreen {
+  min-height: 100vh;
+}
+
+.is-fullpage {
+  min-height: calc(100vh - 134px);
+}
+
+.is-fullwidth {
+  width: 100%;
+}
+
+.separator {
+  margin: 0 -1.25rem 1.25rem;
+  background-color: $darkmode-text
+}
+
+.label {
+  color: $grey;
+}
+
+.textarea {
+  background-color: $dark-grey;
+  color: $grey;
+}
+
+.textarea::placeholder {
+  color: $darkmode-text;
+  opacity: 1;
+}
+
+.input {
+  background-color: $dark-grey;
+  color: $grey;
+}
+
+.input::placeholder {
+  color: $darkmode-text;
+  opacity: 1;
+}
+
+.has-space-below {
+  margin-bottom: 1.5rem;
+}

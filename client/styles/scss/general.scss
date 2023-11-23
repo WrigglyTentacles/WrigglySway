@@ -1,0 +1,49 @@
+html {
+  background-color: $dark-grey;
+  font-size: 12px;
+  color: #887f6f;
+}
+
+a {
+  color: $info;
+}
+
+.title {
+  font-weight: $weight-normal;
+  color: #887f6f;
+}
+
+.is-1 {
+  color: #887f6f;
+}
+
+.section {
+  background-color: transparent;
+  color: #887f6f;
+}
+
+.box {
+  background-color: $mern-primary;
+  color: $darkmode-text;
+  border-radius: 2px;
+}
+
+.select::after {
+  border-color: $dark-grey;
+}
+
+.field.has-help {
+  height: 67px;
+}
+
+.card-footer-item {
+  cursor: pointer;
+  &:hover {
+    background-color: $lightest-grey;
+  }
+}
+
+// Bug in production
+.select select {
+  padding-right: 2.5em;
+}
